@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    body{
+        background: darkgray;
+    }
+    #div1{
+        background: springgreen;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #bt1{
+        padding-top: 10px;
+    }
+</style>
+<body>
+    <header>
+        <div class="containerfluid" id="div1">
+            <h1><b>PREPARING GROCERY LIST</b></h1>
+        </div>
+    </header>
+    <button type="button" class="btn btn-warning" onclick="ajax();" id="bt1">Generate list</button>
+    <!-- <tbody id="demo"></tbody> -->
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th><h3>NO</h3></th>
+                <th><h3>ITEM NAME</h3></th>
+                <th><h3>QUANTITY</h3></th>
+                <th><h3>UNIT</h3></th>
+                <th><h3>DEPARTMENT</h3></th>
+            </tr>
+        </thead>
+        <tbody id="demo"></tbody>
+    </table>
+<DIv>
+    <marquee behavior="" direction="left">
+        <h3>Stay safe... <br>Stay Healthy</h3>
+    </marquee>
+</DIv>
+<script src="index.js"></script>
+</body>
+</html>

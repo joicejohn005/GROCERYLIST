@@ -1,0 +1,46 @@
+{
+    "list":[
+        {
+            "no":"1",
+            "item":"Rice",
+            "quantity":"5",
+            "unit":"kg",
+            "department":"grocery"
+        },
+        {
+            "no":"2",
+            "item":"sugar",
+            "quantity":"1",
+            "unit":"kg",
+            "department":"grocery"
+        },
+        {
+            "no":"3",
+            "item":"teapwdr",
+            "quantity":"1",
+            "unit":"kg",
+            "department":"grocery"
+        },
+        {
+            "no":"4",
+            "item":"milk pwdr",
+            "quantity":"1",
+            "unit":"pack",
+            "department":"grocery"
+        },
+        {
+            "no":"5",
+            "item":"beans",
+            "quantity":"500",
+            "unit":"g",
+            "department":"vegetables"
+        },
+        {
+            "no":"6",
+            "item":"Rice powder",
+            "quantity":"3",
+            "unit":"kg",
+            "department":"stationery"
+        }
+    ]
+}
